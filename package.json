@@ -1,0 +1,15 @@
+{
+  "name": "student-performance-analyzer",
+  "version": "1.0.0",
+  "description": "Node.js unit testing & DevOps automation assignment - Student Performance Analyzer",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
