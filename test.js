@@ -47,8 +47,8 @@ describe('getGrade', () => {
 
   // ----- INTENTIONAL BREAK TEST -----
   // This test is designed to FAIL on purpose to demonstrate CI catching issues.
-  test('INTENTIONAL FAIL: expects grade A for average 50 (should NOT be A)', () => {
-    const grade = getGrade(50); // with our rules, this should be 'E'
-    expect(grade).toBe('A'); // <- intentionally wrong expectation
-  });
+  // test('INTENTIONAL FAIL: expects grade A for average 50 (should NOT be A)', () => {
+  //   const grade = getGrade(50); // with our rules, this should be 'E'
+  //   expect(grade).toBe('A'); // <- intentionally wrong expectation
+  // });
 });
